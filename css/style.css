@@ -246,7 +246,7 @@ img {
 .yellow:active {
   background: #c09b24;
 }
-.border-gray {
+hr {
   border-top: #eeeeee solid 2px;
 }
 .about-left {
@@ -340,8 +340,32 @@ font-size: 36px;
   left:20px;
   margin:0 -100% 0 0;
 }
+.firm   {
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+.borod  {
+  background: url("../img/borod.svg") ;
+ background-size: 100px 82px;
+/*
+  background:#000;*/
+}
 .label a {
-  padding-top: 80px;
-  padding-bottom: 80px;
+
   padding-right: 100px;
+}
+.map img {
+display: block;
+margin: 0 auto;
+z-index: 0;
+}
+.adress {
+  position: relative;
+  content: '';
+  z-index: 4;
+  left: 160px;
+  bottom: 300px;
+  background: #fff;
+  width: 250px;
+
 }
