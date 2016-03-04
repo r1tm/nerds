@@ -177,7 +177,9 @@ img {
 #btn-3:checked ~ .slides .slide:nth-child(3) {
   left: 0;
 }
-#btn-1:checked ~ .slider-controls label[for="btn-1"], #btn-2:checked ~ .slider-controls label[for="btn-2"], #btn-3:checked ~ .slider-controls label[for="btn-3"] {
+#btn-1:checked ~ .slider-controls label[for="btn-1"],
+#btn-2:checked ~ .slider-controls label[for="btn-2"],
+#btn-3:checked ~ .slider-controls label[for="btn-3"] {
   background: #c1c1c1;
 }
 
@@ -344,11 +346,31 @@ font-size: 36px;
   padding-top: 55px;
   padding-bottom: 55px;
 }
-.borod  {
-  background: url("../img/borod.svg") ;
- background-size: 100px 82px;
-/*
-  background:#000;*/
+.golushko {
+  background:  url("../img/glokhanko.svg") no-repeat;
+  display: block;
+  width: 220px;
+  height: 50px;
+      opacity: 0.4;
+}
+.html-ac {
+  background:  url("../img/html-ac.svg") no-repeat;
+  display: block;
+  width: 220px;
+  height: 50px;
+  opacity: 0.4;
+}
+.borod {
+  background:  url("../img/borod.svg") no-repeat;
+  display: block;
+  width: 220px;
+  height: 50px;
+      opacity: 0.4;
+}
+.golushko :after,
+.html-ac :after,
+.borod :after {
+  opacity: 1;
 }
 .label a {
 
