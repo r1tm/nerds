@@ -38,7 +38,6 @@ img {
 .main-menu {
   list-style: none;
   margin: 0;
-  margin-bottom: 50px;
   text-align: right;
 }
 .main-menu li {
@@ -61,18 +60,52 @@ img {
   color: #000;
   opacity: 0.4;
 }
-.cart::before {
-  position: absolute;
-  display: block;
-  content: "";
-  width: 17px;
-  height: 16px;
-  top: 73px;
-  right: 290px;
-  background: url("../img/icon-basket.png") no-repeat;
-  opacity: 0.3;
+.cart {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 50px;
+  padding-left: 65px;
+  font-size: 14px;
+  line-height: 30px;
+  text-decoration: none;
+  color: #000000;
 }
 
+.cart:before {
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 37px;
+  width: 16px;
+  height: 16px;
+  background: transparent url("../img/sprite-test.png") no-repeat;
+  background-position: -36px -36px;
+}
+
+.cart:hover:before {
+  opacity: 1;
+  background: #fb565a;
+  background: transparent url("../img/sprite-test.png") no-repeat;
+  background-position: -36px -213px;
+}
+
+.cart:active:before {
+  background: transparent url("../img/sprite-test.png") no-repeat;
+  background-position: -36px -124px;
+  opacity: .5;
+}
+.title-shop  {
+display: inline-block;
+vertical-align: middle;
+margin-left: 105px;
+}
+.title-shop h1 {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  text-align: center;
+}
 /*--------------------slider-------*/
 
 .slider {
@@ -93,6 +126,7 @@ img {
   -webkit-transition: left 0.3s ease;
   -moz-transition: left 0.3s ease;
   transition: left 0.3s ease;
+  margin-top: 25px;
 }
 .slider input[type="radio"] {
   display: none;
@@ -251,6 +285,9 @@ img {
 hr {
   border-top: #eeeeee solid 2px;
 }
+
+/*--------------about----------------*/
+
 .about-left {
   float: left;
   width: 620px;
@@ -359,6 +396,10 @@ padding-right: 120px;
 .partners-img a:nth-child(3) {
   padding-right: 0;
 }
+/*--------------------shop-------------------*/
+
+
+/*----------------footer--------------------*/
 .main-footer {
   margin-top: 85px;
 }
