@@ -680,7 +680,20 @@ input[type="radio"]:checked + label:hover:before {
   background: transparent url("../img/sprite3.png") no-repeat;
   background-position: -20px -20px;
 }
-
+.product-item .btn {
+  display: block;
+  width: 140px;
+  margin-top: 25px;
+  padding: 12px 9px;
+  margin-left: 10px;
+  font-weight: 300;
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 3px;
+}
 .btn-show {
   background: #f1f1f1;
   color: #000000;
@@ -874,11 +887,6 @@ input[type="radio"]:checked + label:hover:before {
   font-size: 14px;
   line-height: 18px;
   margin-bottom: 25px;
-}
-
-.item-btn {
-  width: 120px;
-  font-size: 18px;
 }
 
 .item-btn:hover {
