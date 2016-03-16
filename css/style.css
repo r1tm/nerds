@@ -264,13 +264,13 @@ margin-left: 105px;
 .red:active {
   background: #b63538;
 }
-.green {
+.promo-green {
   background: #00ca74;
 }
-.green:hover {
+.promo-green:hover {
   background: #01a25e;
 }
-.green:active {
+.promo-green:active {
   background: #009053;
 }
 .yellow {
@@ -774,7 +774,7 @@ input[type="radio"]:checked + label:hover:before {
   margin-right: 6px;
 }
 
-.green {
+ .green {
   border-style: solid;
   border-width: 10px 5.5px 0 5.5px;
   border-color: #00ca72 transparent transparent;
